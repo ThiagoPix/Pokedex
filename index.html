@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PokeDEX</title>
+  <link rel="shortcut icon" href="img/favicon/favPokeball.png" type="image/x-icon">
+  <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+  
+  <div id="pokedexBox">
+    <!--Podedex-->
+    <img src="img/Pokedex2.png" alt="pokedex" id="alldex">
+    <!--gifpokemon-->
+    <img src="#" alt="pokemon" class="pokemon__image">
+    <!--tipo do pokemon-->
+    <img src="img/GO_Electric.png" alt="tipo" class="tipoPokemon">
+    <img src="img/GO_Electric.png" alt="tipo" class="tipoPokemon2">
+  
+    <h1 class="pokemon__data">
+      <span class="pokemon__number"></span> -
+      <span class="pokemon__name"></span>
+    </h1>
+
+    <form class="form">
+      <input 
+        type="txt"
+        class="input__search"
+        placeholder="Pokemon"
+        required
+        />
+
+    </form>
+    
+    <div class="buttons">
+      <button class="button btn-prev">&lt;</button>
+      <button class="button btn-next">&gt;</button>
+    </div>
+   
+    <div class="allPokemons">
+      <ul id="pokemon-list">
+        
+      </ul>
+    </div>
+  
+  </div>
+
+  
+  
+  
+  
+  
+  
+  <footer>
+
+  </footer>
+
+  <script src="JS/script.js"></script>
+</body>
+</html>
